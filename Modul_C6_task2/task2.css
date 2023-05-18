@@ -1,0 +1,27 @@
+.btn {  
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  margin: 5px 10px;
+  padding: 10px 15px;  
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #00F3B2;
+  background: #9465EB;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgb(41,231,164);
+  transform: scale(1.05);
+}
+
+.btn_text {
+  margin-right: 10px;
+}
+
